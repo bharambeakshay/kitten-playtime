@@ -1,0 +1,422 @@
+.room{
+        /* width: 50%;
+        height:60%x; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* height: 100vh;
+    width:1200px; */
+    /* margin:60px 60px 60px 60px; */
+    /* float: right; */
+    height: 100vh;
+}
+.room1{
+    height:95vh;
+    /* width:1200px; */
+}
+.cat-image-logo{
+    /* left: -8px;
+    top: 11px; */
+    /* margin-left: -180px; */
+    /* margin-bottom: 475px; */
+    margin-left: 180px;
+}
+.score-board-home{
+    position: absolute;
+    left:60px;
+    top:-2px;
+    bottom: 30px;
+}
+
+/* .mainContent{ */
+    /* display: flex;
+    flex-direction: column; */
+    /* background-image: url(../../images/wall.jpeg); */
+    /* background-repeat: no-repeat;
+    width: 60%;
+    justify-content: center; */
+
+/* } */
+
+.image{
+    height: 200px;
+    transform: translate(60px,-250px);
+    position: absolute;
+}
+
+.carpet{
+    /* width: 615px;
+    margin-top: 193px; */
+    transform: translate(250px,140px) rotateX(70deg);
+    position: absolute;
+    top:30%;
+    left:20px;
+}
+
+.ball1{
+    transform: translate(700px,260px);
+    position: absolute;
+}
+
+.ball2{
+    transform: translate(400px,190px);
+    position: absolute;
+}
+
+.ball3{
+    transform: translate(800px,180px);
+    position: absolute;
+}
+
+.play-button{
+    /* // background-image: url(../../images/play-button.svg); */
+    transform: translate(940px,80px);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    color: black;
+    border-radius: 25px;
+    outline: none;
+}
+
+.exit-button{
+    transform: translate(1000px,80px);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: large;
+    color: black;
+    border-radius: 25px;
+    outline: none;
+}
+
+.number-button{
+    transform: translate(405px,490px);
+    position: absolute;
+    flex-wrap: wrap;
+    width:400px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    border:5px solid rgb(17, 15, 15);
+    background-color: #FF4B95;
+    border-radius: 30%;
+    outline: none;
+    left: 18px;
+    top: 34px;
+}
+
+.all-buttons{
+    padding: 10px 0px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:180px;
+    height:80px;
+    outline: none;
+
+}
+
+.button{
+    /* transform: translate(505px,500px); */
+    /* position: absolute; */
+    background-color:rgb(114,21,54);
+    width: 35px;
+    height: 35px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    outline: none;
+}
+
+.enter-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:190px;
+    background-color: #E03A7A;
+    border-radius: 35%;
+}
+
+.enter{
+    margin-left: 10px;
+    height: 30px;
+    width: 60px;
+    background-color: #D38E54;
+}
+
+.answer-input{
+    width: 40px;
+    height: 25px;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+    width: 60px;
+}
+
+.eye{
+    background-color: #E03A7A;
+    transform: translate(830px,500px);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    top: 36px;
+    left: 21px;
+}
+
+.reset{
+    background-color: #E03A7A;
+    transform: translate(830px,540px);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    top: 39px;
+    left: 21px;
+}
+
+.speaker{
+    background-color: #E03A7A;
+    transform: translate(900px,50px);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 5px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    left: -8px;
+    top: 11px;
+}
+
+.exit{
+        background-color: #d84c81;
+        transform: translate(960px,50px);
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 5px;
+        width: 35px;
+        height: 35px;
+        outline: none;
+        left: -8px;
+        top: 11px;
+}
+
+.stars{
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #E03A7A;
+    transform: translate(400px,50px);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px 15px 15px 15px;
+    border: 5px solid black;
+    width: 250px;
+    height: 40px;
+}
+
+.score{
+    background-color: #E03A7A;
+    transform: translate(270px,-15px);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px 15px 15px 15px;
+    border: 5px solid black;
+    width: 50px;
+    height: 42px;
+    font-size: larger;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+.flex1{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 440px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-iteration-count: 0.4;
+}
+.catBall1{
+    transform: translate(300px,400px) ;
+    position: absolute;
+    /* top:-137px; */
+    left:-113px;
+}
+
+.catBall2{
+    transform: translate(400px,300px);
+    position: absolute;
+    top: 112px;
+    left: -53px;
+}
+
+.catBall3{
+    top:56px ;
+    transform: translate(500px,350px);
+    position: absolute;
+}
+
+
+.ball1{
+    /* transform: translate(355px,480px) rotate(365deg); */
+    position: absolute;
+    animation-name: ball1;
+    animation-duration: 4s;
+    /* animation-direction: alternate-reverse; */
+    animation-iteration-count: infinite;
+}
+
+.ball2{
+    transform: translate(450px,380px) rotateZ(365deg);
+    position: absolute;
+    animation-name: ball2;
+    animation-duration: 4s;
+    /* animation-direction: alternate-reverse; */
+    animation-iteration-count: infinite;
+}
+
+.ball3{
+    transform: translate(560px,430px) ;
+    position: absolute;
+    animation-name: ball3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ball1{
+    0% {
+        transform:translate(355px,480px) rotate(360deg);
+        left: 100px;
+      }
+      50% {
+          transform:translate(355px,480px) rotate(180deg);
+        left: 0px ;
+      }
+      100% {
+          transform:translate(355px,480px) rotate(360deg);
+        left: 100px;    
+      }
+}
+
+@keyframes ball2{
+    0% {
+        transform:translate(450px,380px) rotate(360deg);
+        left: 80px;
+      }
+      50% {
+          transform:translate(450px,380px) rotate(180deg);
+        left: 0px ;
+      }
+      100% {
+          transform:translate(450px,380px) rotate(360deg);
+        left: 80px;    
+      }
+}
+
+@keyframes ball3{
+    0% {
+        transform:translate(560px,430px) rotate(360deg);
+        left: 80px;
+      }
+      50% {
+          transform:translate(560px,430px) rotate(180deg);
+        left: 0px ;
+      }
+      100% {
+          transform:translate(560px,430px) rotate(360deg);
+        left: 80px;    
+      }
+}
+
+.catwalk1{
+    top:26px;
+    transform: translate(650px,400px);
+    position: absolute;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-iteration-count: 0.4;
+}
+
+.catwalk2{
+    top:124px;
+    left: 30px;
+    transform: translate(700px,310px);
+    position: absolute;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-iteration-count: 0.4;
+}
+
+.catwalk3{
+    top:28px;
+    transform: translate(800px,400px);
+    position: absolute;
+    animation-name: cat;
+    animation-duration: 5s;
+    animation-iteration-count: 0.4;
+}
+
+@keyframes cat{
+    0% {
+        right: 50px;
+      }
+      50% {
+        right: 10%;
+      }
+      100% {
+        right: 50px;    
+      }
+}
+
+.question{
+    transform: translate(500px,150px);
+    position: absolute;
+    font-size: larger;
+    font-weight: bold;
+}
