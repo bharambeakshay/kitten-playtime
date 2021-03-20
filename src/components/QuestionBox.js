@@ -4,8 +4,16 @@ import "../style.css";
 import Eye from "../assets/eye.svg";
 import Reload from "../assets/reload.svg";
 
-const QuestionBox = ({ question, options, selected, playAgain, corrected }) => {
+const QuestionBox = ({
+  question,
+  options,
+  selected,
+  playAgain,
+  corrected,
+  checkAnswers,
+}) => {
   const [answer, setAnswer] = useState(options);
+
   return (
     <>
       {/* //{" "}
@@ -19,9 +27,11 @@ const QuestionBox = ({ question, options, selected, playAgain, corrected }) => {
               key={index}
               className="answerBtn"
               onClick={() => {
-                setAnswer([text]);
-                selected(text);
-                corrected(text);
+                checkAnswers(text);
+
+                // setAnswer([text]);
+                // selected(text);
+                // corrected(text);
               }}
             >
               {text}
